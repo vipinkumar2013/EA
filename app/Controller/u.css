@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+<?php echo $this->Form->create('Deal', array('url'=>array('controller'=>'users','action'=>'register'),'enctype'=>'multipart/form-data'));?>
+<table cellspacing="10" align="center" >
+<tr>
+<td>Emailid:</td>
+<td><?php  echo $this->Form->input('email',array('type'=>'text','label'=>false,'maxlength'=>'45','size'=>'29'));?>
+</td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><?php  echo $this->Form->input('password',array('type'=>'password','label'=>false,'maxlength'=>'45','size'=>'29'));?></td>
+</tr>
+<tr>
+<td>Re-Password:</td>
+<td><?php  echo $this->Form->input('repassword',array('type'=>'password','label'=>false,'maxlength'=>'45','size'=>'29'));?></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" name='submit' id='submit' value='Submit' ></td>
+</tr>
+</table>
+<?php echo $this->Form->end(); ?>
+
