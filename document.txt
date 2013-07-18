@@ -1,3 +1,0 @@
-This is the documentation file for EasyAgile
-Easyagile is a project collaboration tool.
-Developed By : Andolasoft, San Jose, CA, USA.
