@@ -1,1 +1,2 @@
 This is the documentation file for EasyAgile
+Easyagile is a project collaboration tool.
